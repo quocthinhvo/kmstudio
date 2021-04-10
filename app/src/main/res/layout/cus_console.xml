@@ -1,0 +1,35 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview_input"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="\@log"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#00C853"/>
+		<TextView
+			android:id="@+id/textview_output"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Log for project"
+			android:textSize="16sp"
+			android:textColor="#FFFFFF"/>
+	</LinearLayout>
+</LinearLayout>
